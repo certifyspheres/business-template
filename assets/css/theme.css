@@ -1,0 +1,268 @@
+/* Theme Configuration - Dark Mode */
+[data-theme="dark"] {
+    --primary-color: #3b82f6;
+    --secondary-color: #8b5cf6;
+    --text-color: #f9fafb;
+    --text-light: #9ca3af;
+    --bg-color: #111827;
+    --bg-alt: #1f2937;
+    --border-color: #374151;
+    --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-lg: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Smooth theme transition */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .service-card,
+[data-theme="dark"] .testimonial-card,
+[data-theme="dark"] .blog-card,
+[data-theme="dark"] .portfolio-item,
+[data-theme="dark"] .team-member,
+[data-theme="dark"] .mv-card {
+    background: var(--bg-alt);
+}
+
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group textarea {
+    background: var(--bg-alt);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .filter-btn {
+    background: var(--bg-alt);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .share-btn {
+    background: var(--bg-alt);
+}
+
+/* Theme toggle icon - SVG icons that switch */
+.theme-icon-svg {
+    transition: var(--transition);
+}
+
+.sun-icon {
+    display: none;
+}
+
+.moon-icon {
+    display: block;
+}
+
+[data-theme="dark"] .sun-icon {
+    display: block;
+}
+
+[data-theme="dark"] .moon-icon {
+    display: none;
+}
+
+/* Dark Mode Footer Fixes */
+[data-theme="dark"] .footer {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .footer-col h3,
+[data-theme="dark"] .footer-col h4 {
+    color: #f1f5f9;
+}
+
+[data-theme="dark"] .footer-col p,
+[data-theme="dark"] .footer-col ul li {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .footer-col a {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .footer-col a:hover {
+    color: #f1f5f9;
+}
+
+[data-theme="dark"] .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .footer-bottom p {
+    color: #cbd5e1 !important;
+}
+
+[data-theme="dark"] .footer-bottom a {
+    color: #cbd5e1 !important;
+}
+
+[data-theme="dark"] .footer-bottom a:hover {
+    color: #f1f5f9 !important;
+}
+
+/* Dark Mode Tab/Navigation Text */
+[data-theme="dark"] .nav-link {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .nav-link:hover,
+[data-theme="dark"] .nav-link.active {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .logo-text {
+    color: var(--primary-color);
+}
+
+/* Dark Mode Breadcrumb */
+[data-theme="dark"] .breadcrumb {
+    color: #9ca3af;
+}
+
+[data-theme="dark"] .breadcrumb a {
+    color: #9ca3af;
+}
+
+[data-theme="dark"] .breadcrumb a:hover {
+    color: var(--primary-color);
+}
+
+/* Dark Mode Page Header */
+[data-theme="dark"] .page-header {
+    background: var(--bg-alt);
+}
+
+[data-theme="dark"] .page-header h1 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .page-header p {
+    color: var(--text-light);
+}
+
+/* Dark Mode Section Titles */
+[data-theme="dark"] .section-title {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .section-subtitle {
+    color: var(--text-light);
+}
+
+/* Dark Mode Cards */
+[data-theme="dark"] .feature-card h3,
+[data-theme="dark"] .service-card h3,
+[data-theme="dark"] .blog-card h2,
+[data-theme="dark"] .portfolio-item h3 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .feature-card p,
+[data-theme="dark"] .service-card p,
+[data-theme="dark"] .blog-card p,
+[data-theme="dark"] .portfolio-item p {
+    color: var(--text-light);
+}
+
+/* Dark Mode Buttons */
+[data-theme="dark"] .btn-secondary {
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Dark Mode Filter Buttons */
+[data-theme="dark"] .filter-btn {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .filter-btn:hover,
+[data-theme="dark"] .filter-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Dark Mode Blog Meta */
+[data-theme="dark"] .blog-meta {
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .blog-category {
+    color: var(--primary-color);
+}
+
+/* Dark Mode Testimonials */
+[data-theme="dark"] .testimonial-text {
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .author-info h4 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .author-info p {
+    color: var(--text-light);
+}
+
+/* Dark Mode Legal Pages */
+[data-theme="dark"] .legal-document h2,
+[data-theme="dark"] .legal-document h3 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .legal-document p,
+[data-theme="dark"] .legal-document li {
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .legal-footer {
+    background: var(--bg-alt);
+    border-left-color: var(--primary-color);
+}
+
+/* Dark Mode Color Theme Dropdown */
+[data-theme="dark"] .color-theme-dropdown {
+    background: var(--bg-alt);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .color-option {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .color-option:hover {
+    background: var(--bg-color);
+}
+
+[data-theme="dark"] .color-option.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Dark Mode Error Page */
+[data-theme="dark"] .error-code {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .error-content h2 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .error-content p {
+    color: var(--text-light);
+}

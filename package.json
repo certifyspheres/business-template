@@ -1,0 +1,29 @@
+{
+  "name": "bizpro-template",
+  "version": "1.0.0",
+  "description": "Professional multi-purpose business website template",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx live-server",
+    "validate": "npx html-validate \"*.html\"",
+    "lighthouse": "npx lighthouse http://localhost:8080 --view"
+  },
+  "keywords": [
+    "template",
+    "business",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "BizPro",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bizpro-template"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

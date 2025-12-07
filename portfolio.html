@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View our portfolio of successful projects and client work">
+    <title>Portfolio - BizPro</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">BizPro</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="color-theme-switcher">
+                    <button class="color-theme-btn" id="colorThemeBtn" aria-label="Change color theme">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </button>
+                    <div class="color-theme-dropdown" id="colorThemeDropdown">
+                        <button class="color-option" data-theme="blue">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #2563eb, #1d4ed8);"></span>
+                            <span>Blue</span>
+                        </button>
+                        <button class="color-option" data-theme="purple">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #7c3aed, #6d28d9);"></span>
+                            <span>Purple</span>
+                        </button>
+                        <button class="color-option" data-theme="green">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #10b981, #059669);"></span>
+                            <span>Green</span>
+                        </button>
+                        <button class="color-option" data-theme="orange">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #f59e0b, #d97706);"></span>
+                            <span>Orange</span>
+                        </button>
+                        <button class="color-option" data-theme="red">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #ef4444, #dc2626);"></span>
+                            <span>Red</span>
+                        </button>
+                        <button class="color-option" data-theme="teal">
+                            <span class="color-preview" style="background: linear-gradient(135deg, #14b8a6, #0d9488);"></span>
+                            <span>Teal</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="theme-icon-svg sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-icon-svg moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Portfolio</span>
+                </nav>
+                <h1>Our Portfolio</h1>
+                <p>Explore our latest projects and success stories</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-grid section">
+            <div class="container">
+                <div class="portfolio-items">
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Modern online store with seamless checkout experience</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>Brand Identity Design</h3>
+                            <p>Complete brand refresh for tech startup</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="marketing">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>Digital Campaign</h3>
+                            <p>Multi-channel marketing strategy with 300% ROI</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>Corporate Website</h3>
+                            <p>Professional website for Fortune 500 company</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>Logo & Visual Identity</h3>
+                            <p>Memorable brand identity for retail business</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image"></div>
+                        <div class="portfolio-content">
+                            <h3>Mobile App Design</h3>
+                            <p>User-friendly mobile application interface</p>
+                            <a href="portfolio-detail.html" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>BizPro</h3>
+                    <p>Professional business solutions for the modern enterprise.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Brand Strategy</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 info@bizpro.com</li>
+                        <li>📞 +1 (555) 123-4567</li>
+                        <li>📍 123 Business St, Suite 100</li>
+                        <li>New York, NY 10001</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> BizPro. All rights reserved. | Created by <a href="https://certifysphere.com/" target="_blank" style="color: rgba(255,255,255,0.9);">CertifySphere</a></p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
