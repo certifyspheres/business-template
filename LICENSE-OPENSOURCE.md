@@ -1,7 +1,7 @@
 # Open Source License (MIT with Attribution)
 
 **BizPro Template**  
-Copyright (c) 2024 CertifySphere (https://certifysphere.com)
+Copyright (c) 2025 CertifySphere (https://certifysphere.com)
 
 ## License Terms
 
@@ -98,5 +98,5 @@ Contact us:
 
 **License Type:** MIT with Attribution Requirement  
 **Version:** 1.0  
-**Last Updated:** December 7, 2024  
+**Last Updated:** December 7, 2025  
 **Licensor:** CertifySphere (https://certifysphere.com)

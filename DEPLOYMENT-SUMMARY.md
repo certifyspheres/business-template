@@ -316,7 +316,7 @@ Everything is configured and ready. Follow the steps above to deploy your site t
 **Repository:** https://github.com/certifyspheres/business-template  
 **Target URL:** https://business-theme.certifysphere.com  
 **Created by:** [CertifySphere](https://certifysphere.com/)  
-**Date:** December 7, 2024
+**Date:** December 7, 2025
 
 ---
 

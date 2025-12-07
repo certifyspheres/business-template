@@ -1,7 +1,7 @@
 # Commercial License Agreement
 
 **BizPro Template - Commercial License**  
-Copyright (c) 2024 CertifySphere (https://certifysphere.com)
+Copyright (c) 2025 CertifySphere (https://certifysphere.com)
 
 ## License Grant
 
@@ -243,7 +243,7 @@ By purchasing and using this template under a commercial license, you agree to
 all terms and conditions outlined in this agreement.
 
 **License Version:** 1.0  
-**Last Updated:** December 7, 2024  
+**Last Updated:** December 7, 2025  
 **Licensor:** CertifySphere  
 **Website:** https://certifysphere.com
 

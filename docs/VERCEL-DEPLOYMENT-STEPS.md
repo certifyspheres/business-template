@@ -381,7 +381,7 @@ git push origin main
 **Deployment Target:** https://business-theme.certifysphere.com  
 **Repository:** https://github.com/certifyspheres/business-template  
 **Created by:** [CertifySphere](https://certifysphere.com/)  
-**Date:** December 7, 2024
+**Date:** December 7, 2025
 
 ---
 

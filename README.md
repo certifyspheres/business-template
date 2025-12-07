@@ -365,7 +365,7 @@ For businesses and projects that cannot show attribution.
 
 See [CHANGELOG.md](docs/CHANGELOG.md) for version history and updates.
 
-**Current Version:** 1.0.0 (December 2024)
+**Current Version:** 1.0.0 (December 2025)
 
 ---
 
@@ -401,7 +401,7 @@ If you find this template helpful:
 
 **Created by:** [CertifySphere](https://certifysphere.com/)  
 **Version:** 1.0.0  
-**Last Updated:** December 7, 2024  
+**Last Updated:** December 7, 2025  
 **Made with:** ❤️ and ☕
 
 ---

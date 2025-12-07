@@ -481,6 +481,6 @@ This is the official demo deployment of the BizPro template, hosted on Vercel wi
 
 **Created by:** [CertifySphere](https://certifysphere.com/)  
 **Version:** 1.0.0  
-**Last Updated:** December 7, 2024
+**Last Updated:** December 7, 2025
 
 For questions: support@certifysphere.com
