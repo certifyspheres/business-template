@@ -102,15 +102,16 @@ Replace "BizPro" with your company name throughout all HTML files.
 
 ### 5️⃣ Deploy (5 minutes)
 
-**Easiest:** Drag & drop to [Netlify](https://netlify.com)
+**Easiest:** Deploy to [Vercel](https://vercel.com) (recommended)
 
 **Free Options:**
+- Vercel (recommended)
+- Netlify
 - GitHub Pages
-- Vercel
 - Cloudflare Pages
 - Render
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+See [DEPLOYMENT-FREE-HOSTING.md](docs/DEPLOYMENT-FREE-HOSTING.md) for detailed instructions and [VERCEL-DEPLOYMENT-STEPS.md](docs/VERCEL-DEPLOYMENT-STEPS.md) for Vercel-specific guide.
 
 ---
 
@@ -138,15 +139,17 @@ bizpro-template/
 │       ├── favicon.svg       # Site icon
 │       └── README.md         # Image guidelines
 │
-├── 📚 Documentation
-│   ├── README.md             # This file
+├── 📚 Documentation (docs/)
 │   ├── QUICK-START.md        # 15-minute setup guide
 │   ├── DOCUMENTATION.md      # Complete technical docs
 │   ├── CUSTOMIZATION-GUIDE.md # Step-by-step customization
-│   ├── DEPLOYMENT.md         # Hosting instructions
+│   ├── DEPLOYMENT-FREE-HOSTING.md # Free hosting guide
+│   ├── VERCEL-DEPLOYMENT-STEPS.md # Vercel deployment
 │   ├── FEATURES.md           # Complete feature list
 │   ├── CHANGELOG.md          # Version history
-│   └── LICENSE.md            # Usage terms
+│   ├── LICENSE.md            # Usage terms
+│   ├── INCLUDES-GUIDE.md     # Header/footer includes
+│   └── [more docs...]        # Additional guides
 │
 ├── 🔧 Configuration
 │   ├── package.json          # Optional build tools
@@ -169,7 +172,8 @@ We've included comprehensive documentation to help you get started:
 | [QUICK-START.md](docs/QUICK-START.md) | Get running in 15 minutes | 15 min |
 | [CUSTOMIZATION-GUIDE.md](docs/CUSTOMIZATION-GUIDE.md) | Step-by-step customization | 1-2 hours |
 | [DOCUMENTATION.md](docs/DOCUMENTATION.md) | Complete technical guide | Reference |
-| [DEPLOYMENT.md](docs/DEPLOYMENT.md) | Deploy to 6+ platforms | 5-10 min |
+| [DEPLOYMENT-FREE-HOSTING.md](docs/DEPLOYMENT-FREE-HOSTING.md) | Deploy to free platforms | 5-10 min |
+| [VERCEL-DEPLOYMENT-STEPS.md](docs/VERCEL-DEPLOYMENT-STEPS.md) | Vercel deployment guide | 5 min |
 | [FEATURES.md](docs/FEATURES.md) | All 250+ features listed | Reference |
 
 ---
@@ -375,14 +379,22 @@ If you find this template helpful:
 
 **Created by:** [CertifySphere](https://certifysphere.com/)  
 **Version:** 1.0.0  
-**Last Updated:** December 6, 2024  
+**Last Updated:** December 7, 2024  
 **Made with:** ❤️ and ☕
+
+---
+
+## 🌐 Live Demo
+
+**Demo Site:** [https://business-theme.certifysphere.com](https://business-theme.certifysphere.com)
+
+See the template in action with all features enabled!
 
 ---
 
 <div align="center">
 
-**[Get Started](docs/QUICK-START.md)** • **[Documentation](docs/DOCUMENTATION.md)** • **[Deploy](docs/DEPLOYMENT.md)** • **[CertifySphere](https://certifysphere.com/)**
+**[Get Started](docs/QUICK-START.md)** • **[Documentation](docs/DOCUMENTATION.md)** • **[Deploy](docs/DEPLOYMENT-FREE-HOSTING.md)** • **[CertifySphere](https://certifysphere.com/)**
 
 ---
 
