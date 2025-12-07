@@ -315,18 +315,40 @@ body {
 
 ## 📝 License
 
-This template is available under a custom license. See [LICENSE.md](docs/LICENSE.md) for details.
+BizPro Template is available under a **dual licensing model**:
+
+### 1. Open Source License (MIT with Attribution) - FREE ✅
+Perfect for personal projects, open source, and non-profit use.
+
+**Requirements:**
+- ✅ Include attribution: "Built with BizPro by CertifySphere"
+- ✅ Keep attribution visible on website (footer/about page)
 
 **You CAN:**
 - ✅ Use for personal projects
-- ✅ Use for commercial projects
-- ✅ Use for client projects
-- ✅ Modify and customize
+- ✅ Use for commercial projects (with attribution)
+- ✅ Modify and customize freely
+- ✅ Use for open source projects
 
-**You CANNOT:**
-- ❌ Resell as-is
-- ❌ Redistribute the template
-- ❌ Claim as your own
+### 2. Commercial License - PAID 💼
+For businesses and projects that cannot show attribution.
+
+**Benefits:**
+- ✅ Remove all attribution requirements
+- ✅ Use in unlimited commercial projects
+- ✅ White-label rights (Enterprise tier)
+- ✅ Priority support
+- ✅ Resale rights (tier dependent)
+
+**Pricing:** Contact sales@certifysphere.com
+
+---
+
+**Choose Your License:**
+- **Free with attribution?** → Use Open Source License
+- **No attribution needed?** → Purchase Commercial License
+
+**Full Details:** See [LICENSE](LICENSE) and [LICENSING-GUIDE.md](docs/LICENSING-GUIDE.md)
 
 ---
 
